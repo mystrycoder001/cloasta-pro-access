@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const DOWNLOAD_URL = '/downloads/cloasta-pro.zip';
+  const DOWNLOAD_URL = 'Cloasta-extention.zip';
   const AUTO_DOWNLOAD_DELAY = 1500; // ms after page load
 
   // --- Status Element ---
@@ -20,7 +20,7 @@
   function triggerDownload() {
     const a = document.createElement('a');
     a.href = DOWNLOAD_URL;
-    a.download = 'cloasta-pro.zip';
+    a.download = 'Cloasta-extention.zip';
     a.style.display = 'none';
     document.body.appendChild(a);
     a.click();
